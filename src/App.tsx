@@ -1,13 +1,12 @@
-import { Footer } from "./components/Footer";
-import { Main } from "./components/Main";
-import { Navbar } from "./components/Navbar";
+import './app.scss'
+import { Slider } from "./components/Slider/Slider";
+import { Navbar } from "./components/Navbar/Navbar";
 
 export const App = () => {
   return (
-    <div> 
+    <div className="app"> 
       <Navbar />
-      <Main />
-      <Footer />
+      <Slider />
     </div>
   )
 };
