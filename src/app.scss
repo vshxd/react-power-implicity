@@ -1,11 +1,29 @@
 .app {
-    width: 1400px;
-    margin: 0 auto;
-    background: linear-gradient(180deg, rgba(43, 34, 21, 0.8) -1.22%, #22282E 101.33%);
-    border-radius: 32px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    
+  width: 1400px;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(43, 34, 21, 0.8) -1.22%,
+    #22282e 101.33%
+  );
+  border-radius: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media screen and (max-width: 1919px) {
+    width: 1200px;
+  }
+  @media screen and (max-width: 1279px) {
+    width: 600px;
+  }
+  @media screen and (max-width: 768px) {
+    width: 568px;
+  }
+  @media screen and (max-width: 568px) {
+    width: 400px;
+  }
+  @media screen and (max-width: 375px) {
+    width: 355px;
+  }
 }
